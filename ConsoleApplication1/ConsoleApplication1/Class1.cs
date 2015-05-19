@@ -8,6 +8,7 @@ namespace ConsoleApplication1
 {
     class Class1
     {
+        int f;
         public int Calcular(int n)
         {
             if(n==1){
