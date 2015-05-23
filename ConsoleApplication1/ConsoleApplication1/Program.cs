@@ -14,7 +14,11 @@ namespace ConsoleApplication1
             //System.Console.WriteLine("Hola Mundo:D esto es genial");
             //System.Console.ReadKey();
             Fibonacci calculadora= new Fibonacci();
-           Console.WriteLine( calculadora.Calcular(20));
+           Console.WriteLine( calculadora.Calcular(1));
+           Console.WriteLine(calculadora.Calcular(2));
+           Console.WriteLine(calculadora.Calcular(3));
+           Console.WriteLine(calculadora.Calcular(10));
+
            Console.ReadKey();
             
 
