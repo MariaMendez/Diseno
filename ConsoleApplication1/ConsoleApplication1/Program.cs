@@ -13,8 +13,8 @@ namespace ConsoleApplication1
             //int f = 2;
             //System.Console.WriteLine("Hola Mundo:D esto es genial");
             //System.Console.ReadKey();
-            Class1 fibonacci= new Class1();
-           Console.WriteLine( fibonacci.Calcular(20));
+            Fibonacci calculadora= new Fibonacci();
+           Console.WriteLine( calculadora.Calcular(20));
            Console.ReadKey();
             
 
