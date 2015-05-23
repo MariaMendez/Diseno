@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     class Fibonacci
     {
         int f;
-        int x;
+        
         public int Calcular(int n)
         {
             if(n==1){
