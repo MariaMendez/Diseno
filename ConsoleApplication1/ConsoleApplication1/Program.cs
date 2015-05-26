@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,25 @@ namespace ConsoleApplication1
             //System.Console.WriteLine("Hola Mundo:D esto es genial");
             //System.Console.ReadKey();
             Fibonacci calculadora= new Fibonacci();
-           Console.WriteLine( calculadora.Calcular(20));
+            ArrayList entrada = new ArrayList();
+            entrada.Add(4); 
+            entrada.Add(6);
+            entrada.Add(20);
+            entrada.Add(1);
+            entrada.Add(11);
+            entrada.Add(25);
+            foreach (int obj in calculadora.RecibeArreglo(entrada))
+            {
+
+
+
+
+          
+
+
+
+            }
+           //Console.WriteLine( calculadora.Calcular(20));
            Console.ReadKey();
             
 
