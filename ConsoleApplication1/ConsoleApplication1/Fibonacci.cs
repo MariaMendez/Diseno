@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,32 @@ namespace ConsoleApplication1
 {
     class Fibonacci
     {
-        int f;
+       
+      
+        public ArrayList RecibeArreglo(IEnumerable array)
+        {
+            ArrayList salida = new ArrayList();    
+ foreach(int obj in array){
+
+
+
+     
+        salida.Add(Calcular(obj));
+  
+    
+   
+ }
+ 
+ return salida;
+ 
+        }
         
+       
+
         public int Calcular(int n)
         {
+            
+         
             if(n==1){
                 return 1;
 
