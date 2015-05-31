@@ -12,7 +12,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             //int f = 2;
-            //System.Console.WriteLine("Hola Mundo:D esto es genial LDkj");
+            //System.Console.WriteLine("Hola Mundo:D esto es genial LDkaj");
             //System.Console.ReadKey();
             Fibonacci calculadora= new Fibonacci();
             ArrayList entrada = new ArrayList();
