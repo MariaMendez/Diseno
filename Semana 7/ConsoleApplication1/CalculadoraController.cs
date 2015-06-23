@@ -8,10 +8,10 @@ namespace Calculadora
 {
     class CalculadoraController
     {
-        string CoordineLaDivision(double divisor, double dividendo)
+       public  string CoordineLaDivision( double dividendo, double divisor)
         {
             CalculadoraEntity laCalculadora = new CalculadoraEntity();
-            double resultado = laCalculadora.Dividir(divisor, dividendo);
+            double resultado = laCalculadora.Dividir(dividendo, divisor);
             string resultadoString = resultado.ToString();
             return resultadoString;
         }

@@ -13,6 +13,8 @@ namespace Calculadora
             CalculadoraBoundary elLimite = new CalculadoraBoundary();
              double divisor= elLimite.ObtenerDivisor();
              double dividendo = elLimite.ObtenerDividendo();
+             CalculadoraController laControladora = new CalculadoraController();
+             string resultado= laControladora.CoordineLaDivision(dividendo, divisor);
 
         }
     }
