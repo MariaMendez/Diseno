@@ -8,13 +8,13 @@ namespace Calculadora
 {
     class CalculadoraBoundary
     {
-        double ObtenerDivisor()
+        public double ObtenerDivisor()
         {
             string divisor = Console.ReadLine();
             double respuesta = double.Parse(divisor);
             return respuesta;
         }
-        double ObtenerDividendo()
+        public double ObtenerDividendo()
         {
             string dividendo = Console.ReadLine();
             double respuesta = double.Parse(dividendo);
