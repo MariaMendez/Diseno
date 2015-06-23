@@ -15,6 +15,7 @@ namespace Calculadora
              double dividendo = elLimite.ObtenerDividendo();
              CalculadoraController laControladora = new CalculadoraController();
              string resultado= laControladora.CoordineLaDivision(dividendo, divisor);
+             elLimite.MostrarResultado(resultado);
 
         }
     }

@@ -20,5 +20,11 @@ namespace Calculadora
             double respuesta = double.Parse(dividendo);
             return respuesta;
         }
+
+        internal void MostrarResultado(string resultado)
+        {
+            Console.WriteLine(resultado);
+            Console.ReadLine();
+        }
     }
 }
