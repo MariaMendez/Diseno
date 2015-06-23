@@ -14,5 +14,11 @@ namespace Calculadora
             double respuesta = double.Parse(divisor);
             return respuesta;
         }
+        double ObtenerDividendo()
+        {
+            string dividendo = Console.ReadLine();
+            double respuesta = double.Parse(dividendo);
+            return respuesta;
+        }
     }
 }

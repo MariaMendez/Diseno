@@ -8,7 +8,7 @@ namespace Calculadora
 {
     class CalculadoraEntity
     {
-        double Dividir(double dividendo, double divisor)
+        public double Dividir(double dividendo, double divisor)
         {
             if (divisor == 0)
             {
@@ -16,5 +16,6 @@ namespace Calculadora
             }
             return dividendo / divisor;
         }
+ 
     }
 }
