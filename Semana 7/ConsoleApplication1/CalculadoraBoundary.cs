@@ -10,12 +10,15 @@ namespace Calculadora
     {
         public double ObtenerDivisor()
         {
+            Console.WriteLine("Deme el divisor");
             string divisor = Console.ReadLine();
             double respuesta = double.Parse(divisor);
             return respuesta;
         }
         public double ObtenerDividendo()
+           
         {
+            Console.WriteLine("Deme el dividendo");
             string dividendo = Console.ReadLine();
             double respuesta = double.Parse(dividendo);
             return respuesta;

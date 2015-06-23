@@ -10,7 +10,7 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
-            CalculadoraBoundary elLimite = new CalculadoraBoundary();
+             CalculadoraBoundary elLimite = new CalculadoraBoundary();
              double divisor= elLimite.ObtenerDivisor();
              double dividendo = elLimite.ObtenerDividendo();
              CalculadoraController laControladora = new CalculadoraController();
