@@ -8,6 +8,7 @@ namespace Calculadora
 {
     class CalculadoraBoundary
     {
+       
         public double ObtenerDivisor()
         {
             Console.WriteLine("Deme el divisor");
@@ -16,7 +17,6 @@ namespace Calculadora
             return respuesta;
         }
         public double ObtenerDividendo()
-           
         {
             Console.WriteLine("Deme el dividendo");
             string dividendo = Console.ReadLine();
